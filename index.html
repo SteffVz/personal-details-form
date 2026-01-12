@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <title>Personal Details Form</title>
+
+</head>
+<body>
+
+    <h2>Personal Details:</h2>
+
+    <form method="POST" action="/">
+
+        <label>
+            Name:
+            <input type="text" name="name" required />
+        </label>
+        <br><br>
+
+        <label>
+            Surname:
+            <input type="text" name="surname" required />
+        </label>
+        <br><br>
+
+        <label>
+            ID Number:
+            <input type="text" name="idNumber" required />
+        </label>
+        <br><br>
+
+        <label>
+            Date of Birth:
+            <input type="date" name="dateOfBirth" required />
+        </label>
+        <br><br>
+
+        <button type="submit">POST</button>
+        <button type="button" onclick="window.location.href='/'">CANCEL</button>
+
+    </form>
+
+</body>
+</html>
